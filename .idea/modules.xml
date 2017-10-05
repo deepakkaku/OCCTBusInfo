@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OCCTBusInfo.iml" filepath="$PROJECT_DIR$/OCCTBusInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialIntro/materialIntro.iml" filepath="$PROJECT_DIR$/materialIntro/materialIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialList/materialList.iml" filepath="$PROJECT_DIR$/materialList/materialList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialRadiogrp/materialRadiogrp.iml" filepath="$PROJECT_DIR$/materialRadiogrp/materialRadiogrp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialShowcase/materialShowcase.iml" filepath="$PROJECT_DIR$/materialShowcase/materialShowcase.iml" />
+    </modules>
+  </component>
+</project>

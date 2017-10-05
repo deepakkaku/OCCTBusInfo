@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:soulwolf="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/selectedBus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Note: Inbound means Bus will go towards BC Junction, while Outbound means bus will leave from BC Junction"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ib" />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Direction"
+        android:id="@+id/direction" />
+
+    <RadioGroup
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/radioRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:textSize="20dp"
+            android:id="@+id/radioInbound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbound"
+            android:checked="true" />
+
+        <RadioButton
+            android:textSize="20dp"
+            android:id="@+id/radioOutbound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outbound" />
+
+    </RadioGroup>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select your location"
+        android:id="@+id/yourLocation" />
+
+
+
+
+    <Spinner
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:id="@+id/spinner" />
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnDisplay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Search" />
+
+</LinearLayout>
+<com.google.android.gms.ads.AdView
+android:id="@+id/ad_view"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:layout_alignParentBottom="true"
+android:layout_marginTop="35dp"
+ads:adSize="BANNER"
+ads:adUnitId="@string/banner_ad_unit_id_3" />
+    </RelativeLayout>

@@ -1,0 +1,23 @@
+42.095275,-75.914151,UDC
+42.098282,-75.914787,Hawley
+42.098763,-75.917858,Main & Front
+42.099469,-75.921493,Main & Murray 
+42.100370,-75.924949,Main & Arthur
+42.102221,-75.928571,Main & Cedar
+42.103194,-75.930318,Main & Clarke
+42.105381, 75.934308,Main & Schiller
+42.106904,-75.937059,Main & Helen
+42.108420,-75.939821,Main & Crestmont
+42.109474,-75.941747,Main & Matthews
+42.111003,-75.945135,Floral & Main
+42.108945,-75.949073,Floral & Cleveland
+42.108453,-75.952462,Floral & Burbank
+42.108111,-75.954386,Floral & Willow
+42.107898,-75.956130,Floral & Robert
+42.107604,-75.958449,Floral & Harrison
+42.107340,-75.960428,Floral & Ackley
+42.107032,-75.963164,Floral & New york
+42.094769,-75.975316,Denny's
+42.090961,-75.973403,Physical Facilities
+42.088701,-75.973148,Academic A
+42.087009,-75.967099,Union

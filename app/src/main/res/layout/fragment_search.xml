@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="occtbusinfo.dk.com.occtbusinfo.SearchFragment">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:soulwolf="http://schemas.android.com/apk/res-auto"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Select Bus Provider"
+                android:id="@+id/provider" />
+
+
+            <net.soulwolf.widget.materialradio.MaterialRadioGroup
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/bus_provider"
+                >
+
+                <net.soulwolf.widget.materialradio.MaterialRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    soulwolf:mcTextSize="6sp"
+                    soulwolf:mcText="BC TRANSIT"
+                    soulwolf:mcPadding="5dp"
+                    soulwolf:mcChecked="true"
+                    soulwolf:mcAnimator="true"
+                    soulwolf:mcTextColor="@drawable/radio_button_text_selector"
+                    soulwolf:mcButton="@drawable/radio_button_boy_selector"/>
+
+                <net.soulwolf.widget.materialradio.MaterialRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_height="match_parent"
+                    soulwolf:mcAnimator="true"
+                    soulwolf:mcTextSize="6sp"
+                    soulwolf:mcPadding="5dp"
+                    soulwolf:mcText="OCCT BUS"
+                    soulwolf:mcTextColor="@drawable/radio_button_text_selector"
+                    soulwolf:mcButton="@drawable/radio_button_girl_selector"/>
+
+            </net.soulwolf.widget.materialradio.MaterialRadioGroup>
+
+            <Button
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/bus_provider_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="GO" />
+
+
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="35dp"
+            ads:adSize="LARGE_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" />
+    </RelativeLayout>
+
+</FrameLayout>
